@@ -186,6 +186,12 @@ p{
     margin-top: 150px;
     font-size: 22px;
     text-align: center;
+    font-weight: 300;
+}
+.dos p{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
 }
 .fa-brands{
     color: white;
