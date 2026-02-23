@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    font-family: "";
+    font-family: "Poppins", sans-serif;
 }
 header{
     background-image: url("Images/image 7.png");
@@ -29,7 +27,6 @@ header{
 p{
     font-size: 30px;
     color: white;
-    font-family: "Roboto";
     font-weight: 800;
 }
 
@@ -42,7 +39,6 @@ p{
 }
 .navbar ul li{
     list-style: none;
-    font-family: "Roboto";
     font-size: 20px;
 }
 
@@ -66,11 +62,11 @@ p{
     color:#008EC4;
     font-weight: 700;
     font-size: 70px;
-    font-family: "Roboto";
+
 }
 .ecriture p:last-child{
     font-weight: 400;
-    font-family: "Roboto";
+
     color: black;
 }
 .images{
@@ -127,8 +123,9 @@ p{
     justify-content: center;
     gap: 20px;
 }
-.fa-solid {
+.images .fa-solid {
     font-size: 35px;
+    color: #a9a9a9;
 }
 .fa-brands{
     width: 60px;
@@ -150,15 +147,14 @@ p{
     font-size: 50px;
     color: black;
     position: absolute;
-    top: 350px;
-    right: 800px;
-    
+    margin-left: 620px;
 }
+
 .class{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
 }
 .bas{
     width: 450px;
@@ -177,9 +173,10 @@ p{
     top: 15px;
     width: 90px;
     height: 90px;
-    background-color: #18b6f548;
+    background-color: #04b0f42f;
     border-radius: 20% ;
     padding: 10px;
+    color: #008EC4;
 }
 .dos{
     width: 100%;
@@ -187,4 +184,15 @@ p{
     margin-top: 150px;
     font-size: 22px;
     text-align: center;
+}
+.fa-brands{
+    color: white;
+}
+.grand p{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 350px;
+    right: 800px;
+    
 }
