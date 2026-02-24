@@ -24,7 +24,11 @@ header{
     justify-content: space-around;
     text-decoration: none;
 }
-p{
+.navbar p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.ecriture p{
     font-size: 30px;
     color: white;
     font-weight: 800;
@@ -134,8 +138,79 @@ p{
     background-color: #008EC4;
     border-radius: 50%;
     margin-right: 30px;
+    color: white;
 }
-#sec1{
+.ent p{
+    color: black;
+    padding: 300px 0px 60px 0px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-size: 50px;
+    font-weight: 700;
+} 
+.element{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+}
+.row{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.srow i{
+    font-size: 40px;
+    margin-bottom: 10%;
+    background-color: #008dc431;
+    border-radius: 10px;
+
+}
+
+.srow .fa-solid{
+    padding: 20px;
+    color: #008EC4;
+}
+.srow h3{
+    font-size: 22px;
+}
+.srow p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.grand h3{
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sgrand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 60px;
+}
+.sgrand p{
+    font-size: 25px;
+}
+.sous{
+    gap: 10px;
+    width: 30%;
+    border: 1px solid black;
+    height: 60px;
+    gap: 10px;
+    
+}
+.sous p{
+    
+}
+/* #sec1{
     width: 100%;
     height: 1900px;
     position: relative;
@@ -145,12 +220,12 @@ p{
  
 }
 .ent p{
-    font-size: 50px;
+    
     color: black;
     position: absolute;
     top: 350px;
     right: 800px;
-    
+    font-weight: 900;
 }
 .class{
     display: flex;
@@ -196,7 +271,24 @@ p{
 .fa-brands{
     color: white;
 }
-.grand p{
+.grand{
+    position: relative;
+}
+.grand h3{
+    position: absolute;
     font-size: 50px;
     color: black;
+    
+    font-size: 55px;
+    font-weight: 900;
+}    
+.element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
+.tex p{
+    color: black;
+    font-weight: 400;
+} */
