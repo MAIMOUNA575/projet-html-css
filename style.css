@@ -199,17 +199,6 @@ header{
 .sgrand p{
     font-size: 25px;
 }
-.sous{
-    gap: 10px;
-    width: 30%;
-    border: 1px solid black;
-    height: 60px;
-    gap: 10px;
-    
-}
-.sous p{
-    
-}
 /* #sec1{
     width: 100%;
     height: 1900px;
