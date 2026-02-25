@@ -193,11 +193,94 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 45px;
-    padding: 60px;
+    gap: 30px;
+    padding: 90px;
 }
 .sgrand p{
     font-size: 25px;
+}
+#nom{
+    width: 90%;
+    height: 1000px;
+    margin: 70px;
+}
+.haut{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.haut .p{
+    width: 350px;
+    height: 350px;
+}
+
+.bas{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bas .p{
+    width: 350px;
+    height: 350px;
+}
+
+.p img{
+    object-fit: cover;
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+}
+.p{
+    position: relative;
+}
+.p .etoile{
+    position: absolute;
+    color: white;
+
+}
+.etoile{
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    padding: 7px;
+    top: 35px;
+    left: 270px;
+}
+.ecrit span{
+    font-weight: 700;
+}
+.location{
+    display: flex;
+    gap: 5px;
+    font-weight: 300;
+}
+.location p{
+    font-size: 13px;
+}
+
+.info{
+    width: 190px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.explore{
+    width: 100%;
+
+}
+.explore h1{
+    font-size: 100px;
 }
 /* #sec1{
     width: 100%;
