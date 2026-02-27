@@ -285,7 +285,7 @@ header{
     display: block;
     align-items: baseline;
     justify-content: center;
-    
+    position: relative;
 
 }
 .explore h1{
@@ -314,6 +314,79 @@ hr{
     justify-content: baseline;
 
 }
+.in{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.in span{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.g{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    right: 100px;
+    top: 550px;
+}
+.m{
+    background-color: black;
+    width: 35%;
+    height: 270px;
+    border-radius: 15px;
+}
+
+.feature{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feature span{
+    font-size: 40px;
+    width: 50px;
+    border: 1px solid rgba(79, 77, 77, 0.523);
+    padding: 2px;
+    border-radius: 10px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jol{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(160, 104, 104);
+}
+.t{
+    width: 28%;
+    height: 500px;
+    border-radius: 40px;
+    background-color: rgba(0, 255, 255, 0.247);
+}
+
+.hell{
+    
+}
+
+
 
 /* #sec1{
     width: 100%;
