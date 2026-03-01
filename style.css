@@ -296,7 +296,7 @@ header{
     justify-content: center;
     padding: 70px;
 }
-hr{
+.explore hr{
     color: white;
     width: 95%;
     margin: 15px;
@@ -442,11 +442,13 @@ hr{
 
 .hello{
     background-repeat: no-repeat;
-    background-image: url(Images/dernier\ image\ projet.jpeg);
+    /* background-image: url(Images/dernier\ image\ projet.jpeg); */
     width: 100%;
     height: 800px;
     background-size: cover;
-    /* filter: brightness(40%); */
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.735)),
+    url("Images/dernier\ image\ \ projet.jpeg");
 }
 .hello h1{
     font-size: 70px;
@@ -479,3 +481,151 @@ hr{
     left: 35px;
     top: -50px;
 } 
+.i p{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+.i span{
+    font-size: 12px;
+    padding-left: 30px;
+}
+.i h6{
+    margin-left: 190px;
+    margin-top: -40px;
+    font-size: 13px;
+}
+.i .mai{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.mai h5{
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.special{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 500px;
+}
+.special .bla{
+    width: 90%;
+    height: 350px;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.bla img{
+    border-radius: 40px 0 0 40px;
+    height: 100%;
+}
+.bla{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.get{
+    width: 60%;
+    height: 250px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+}
+.get span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.lon{
+    background-color: white;
+    width: 90%;
+    height: 70px;
+    font-size: 17px;
+    margin: 40px;
+    border-radius: 35px;
+    box-shadow: rgba(100, 100, 111, 0.205) 0px 7px 29px 0px;
+    border: none;
+}
+.sub{
+    background-color: #008EC4;
+    width: 20%;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 35px;
+    border: none;
+    position: absolute;
+    left: 500px;
+    top: 140px;
+}
+.flooter{
+    background-color: black;
+    width: 100%;
+    height: 390px;
+    position: relative;
+}
+.azerty{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.w{
+    width: 15%;
+    height: 120px;
+    padding: 15px;
+    color: white;
+    
+}
+.w span{
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.k{
+    
+    width: 30%;
+    height: 120px;
+}
+.k span{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.w p{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.k .fa-brands{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+.flooter hr{
+    margin-left: 100px;
+}
+.flooter h6{
+    color: rgba(255, 255, 255, 0.502);
+    margin: 100px;
+    font-size: 11px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.flooter img{
+    margin-left: 890px;
+    margin-top: -90px;
+    position: absolute;
+}
